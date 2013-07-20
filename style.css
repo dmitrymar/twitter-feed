@@ -1,0 +1,79 @@
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+
+#pchTweetsBox {
+    width:325px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pchTweetsBox .pch-tb-header {
+    font-size: 1.5em;
+    color:#dcdcdc;
+    padding:0.3em;
+    background:#999999;
+}
+
+#pchTweetsBox .pch-tb-list-wrap, #pchTweetsBox .pch-tb-footer {
+    color:#ccc;
+    background:#272727;
+}
+
+#pchTweetsBox .pch-tb-list-wrap > ul > li {
+    border-bottom: solid 1px #ccc;
+}
+#pchTweetsBox .pch-tb-footer {
+    overflow:hidden;
+    padding:0.5em;
+
+}
+
+#pchTweetsBox .pch-tb-footer a {
+    float:right;
+    color:#ccc;
+    display:block;
+}
+
+#pchTweetsBox .pch-tb-node {
+    display:block;
+    overflow:hidden;
+}
+
+#pchTweetsBox .pch-tb-node ul {
+    display:block;
+    overflow:hidden;
+}
+
+#pchTweetsBox .pch-tb-node li {
+    float:left;
+    overflow:hidden;
+
+}
+
+#pchTweetsBox .pch-tb-node p {
+    margin:0;
+    padding:0;
+}
+#pchTweetsBox .pch-tb-node-avatar {
+    padding:15px;
+}
+#pchTweetsBox .pch-tb-node-avatar img {
+    display:block;
+}
+
+#pchTweetsBox .pch-tb-node-text div {
+    display:block;
+    line-height:1.5em;
+}
+#pchTweetsBox .pch-tb-node-text {
+    width:243px;
+    padding-top:10px;
+}
+#pchTweetsBox .pch-tb-node-entry {
+    font-size:0.8em;
+    line-height:1.3em
+}
